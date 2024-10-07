@@ -14,8 +14,8 @@
             <x-header/>
 
             <ul class="breadcrumb">
-                <li><a href="/" title="{{ __('misc.home_alt') }}"
-                       alt="{{ __('misc.home_alt') }}">{{ __('misc.home') }}</a></li>
+                <li><h3><a href="/" title="{{ __('misc.home_alt') }}"
+                       alt="{{ __('misc.home_alt') }}">{{ __('misc.home') }}</a></h3></li>
                 {{ $breadcrumb ?? '' }}
             </ul>
 

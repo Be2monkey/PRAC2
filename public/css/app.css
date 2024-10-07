@@ -1072,6 +1072,7 @@ pre code {
     }
 
     .col-md-4 {
+        background-color: #e9ecef;
         flex: 0 0 33.3333333333%;
         max-width: 33.3333333333%;
     }
@@ -10024,4 +10025,9 @@ a.text-dark:hover, a.text-dark:focus {
     padding: 0 5px;
     color: #ccc;
     content: "/ ";
+}
+
+.breadcrumb, a{
+    color: black;
+    text-decoration: underline;
 }
