@@ -16,7 +16,7 @@ return [
     'home' => "Hoofdpagina",
 'home_alt' => "Download je handleiding: Gratis gebruikersgidsen!",
 'homepage_title' => "Download je handleiding",
-'copyright' => "Copyright 2017 Avarix",
+'copyright' => "Copyright 2024 Avarix Wij zijn het bedrijf 4S waar wij sites programeren",
 'download_manual' => "Klik hier om je handleiding te downloaden",
 'download_manual_alt' => "Klik hier om je handleiding te downloaden",
 'view_manual' => "Bekijk direct je handleiding",

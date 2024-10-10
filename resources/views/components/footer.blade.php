@@ -1,10 +1,17 @@
 
-<footer>
+<footer class="navbar navbar-expand navbar-dark bg-dark">
 	© {{ __('misc.copyright') }}
+    <nav class="navbar-brand">
+        <div class="container">
+            <a class="navbar-brand" href="">Over Ons</a>
+            <a class="navbar-brand" href="">Contact</a>
+            <a class="navbar-brand" href="">Socials</a>
+        </div>
+    </nav>
 </footer>
 
 
-<!-- analytics code -->              
+<!-- analytics code -->
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -19,10 +26,10 @@
 </script>
 <!-- Einde analytics code -->
 
-<script language="Javascript" type="text/javascript"> 
- 
- if (top.location!= self.location) { 
+<script language="Javascript" type="text/javascript">
+
+ if (top.location!= self.location) {
   top.location = self.location.href
- } 
- 
+ }
+
 </script>

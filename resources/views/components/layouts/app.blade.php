@@ -10,7 +10,7 @@
 <div class="container">
     <div class="row">
 
-        <div class="col-md-8">
+        <div class="col-md-12">
             <x-header/>
 
             <ul class="breadcrumb">
@@ -34,12 +34,12 @@
 
         </div>
 
-        <div class="row">
-            <x-footer/>
-        </div>
+
 
     </div>
-
+    <div class="">
+        <x-footer/>
+    </div>
 
 </div>
 
