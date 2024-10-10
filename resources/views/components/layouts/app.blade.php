@@ -37,11 +37,10 @@
 
 
     </div>
-    <div class="">
-        <x-footer/>
-    </div>
 
 </div>
+<x-footer/>
+
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
