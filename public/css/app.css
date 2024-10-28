@@ -10032,3 +10032,34 @@ a.text-dark:hover, a.text-dark:focus {
     color: black;
     text-decoration: underline;
 }
+
+
+.manuals{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+.itemsmanual a{
+text-decoration: none;
+background-color: #343a40;
+color: white;
+margin: 3px;
+margin-bottom: 25px;
+margin-left: 5px;
+padding-right: 5px;
+padding: 10px;
+border: white;
+border-radius: 7px;
+
+}
+.itemsmanual a:hover{
+    background-color: #95999c;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

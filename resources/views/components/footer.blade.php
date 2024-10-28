@@ -4,7 +4,7 @@
     <nav class="navbar-brand">
         <div class="container">
             <a class="navbar-brand" href="">Over Ons</a>
-            <a class="navbar-brand" href="">Contact</a>
+            <a class="navbar-brand" href="{{ route ('contact')}}">Contact</a>
             <a class="navbar-brand" href="">Socials</a>
         </div>
     </nav>

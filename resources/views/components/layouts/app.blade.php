@@ -19,12 +19,14 @@
                 {{ $breadcrumb ?? '' }}
             </ul>
 
-            @if ( isset($_GET['q']) )
-                <x-search_results/>
-            @else
-                {{ $slot }}
-            @endif
-
+            <div class="container">
+                @if ( isset($_GET['q']) )
+                    <x-search_results/>
+                @else
+                    {{ $slot }}
+                @endif
+            </div>
+            <br>
             <ul class="breadcrumb">
                 <li>
 					<a href="/" title="{{ __('misc.home_alt') }}" alt="{{ __('misc.home_alt') }}">{{ __('misc.home') }}</a>
@@ -33,14 +35,11 @@
             </ul>
 
         </div>
-
-
-
     </div>
-
 </div>
-<x-footer/>
-
+<div class="bottom">
+    <x-footer/>
+</div>
 
 <!-- Bootstrap core JavaScript
 ================================================== -->

@@ -1,4 +1,4 @@
-<script>
+<script class="text-white">
   (function() {
 	var cx = 'partner-pub-6236044096491918:8149652050';
 	var gcse = document.createElement('script');
