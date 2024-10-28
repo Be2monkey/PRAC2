@@ -19,6 +19,7 @@ return new class extends Migration
             $table->text('originUrl');
             $table->string('filename')->nullable();
             $table->string('downloadedServer')->nullable();
+            $table->bigInteger('visits')->default(0);
             $table->timestamps();
 
             $table->foreign('brand_id')->references('id')->on('brands');
