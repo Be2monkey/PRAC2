@@ -6,6 +6,15 @@
         <p>{{ __('introduction_texts.homepage_line_3') }}</p>
     </x-slot:introduction_text>
 
+    <div class="top-manuals">
+        <h2>Top 10 Populairste Handleidingen</h2>
+        <ul>
+            @foreach($topManuals as $manual)
+                <li>{{ $manual->brand }}: {{ $manual->type }}</li>
+            @endforeach
+        </ul>
+    </div>
+
     <h1>
         <x-slot:title>
             {{ __('misc.all_brands') }}

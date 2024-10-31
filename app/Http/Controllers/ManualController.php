@@ -30,5 +30,21 @@ class ManualController extends Controller
             return redirect()->away($manual->originUrl);
         }
     }
+    public function showHomepage()
+    {
+        $topManuals = Manual::select('manuals.name as type', 'brands.name as brand')
+                            ->join('brands', 'manuals.brand_id', '=', 'brands.id')
+                            ->orderBy('manuals.visits', 'desc')
+                            ->limit(10)
+                            ->get();
+
+
+        $brands = Brand::all();
+
+        return view('pages.homepage', [
+            'topManuals' => $topManuals,
+            'brands' => $brands,
+        ]);
+    }
 }
 
